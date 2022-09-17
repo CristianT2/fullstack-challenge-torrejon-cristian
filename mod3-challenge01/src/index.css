@@ -1,13 +1,38 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+  font-family: 'Comfortaa';
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page {
+  height: 100vh;
+}
+.loading-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+.App{
+  width: 1300px;
+  height: auto;
+  margin: auto;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+
+.character-card {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  border: #000000 1px solid;
+}
+
+.character-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
